@@ -70,7 +70,7 @@ body {
 #img-header {
     display: flex;
     height: 40vh;
-    background-image: url(../assets/img/app.jpg);
+    background-image: url(../img/app.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
