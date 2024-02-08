@@ -1,0 +1,376 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "poppins";
+}
+.overBtn:hover{
+    cursor: pointer;
+}
+
+/* modal */
+#background {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    display: none;
+}
+#background h4{
+    margin: 0;
+    font-size: 2rem;
+}
+
+#modal {
+    background-color: white;
+    margin: 1rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    position: relative;
+}
+#modal input{
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
+#modal p{
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+#close{
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#modalIcon{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+#modal button{
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/* HEADER */
+#img-header {
+    display: flex;
+    height: 40vh;
+    background-image: url(../assets/img/app.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#download {
+    background-color: chartreuse;
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+#deskdownload p {
+    display: none;
+}
+
+#take-tour {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+/* SECTION1 */
+#app1 {
+    padding: 1rem;
+    padding-top: 2.5rem;
+}
+
+#app1 h1 {
+    font-size: 4rem;
+}
+
+#app1 h2 {
+    font-size: 2rem;
+    color: chartreuse;
+    margin: 1rem 0;
+}
+
+#app1Txt>span {
+    font-size: 1.5rem;
+}
+
+#app1SubTxt>i {
+    font-size: 1.5rem;
+}
+
+#app1SubTxt>.fa-android {
+    color: darkgreen;
+}
+
+#app1SubTxt>.fa-windows {
+    color: blue;
+}
+
+#app1Btn {
+    text-align: center;
+    padding: 1rem;
+}
+
+#app1Btndesck {
+    display: none;
+}
+
+#app1Img {
+    text-align: center;
+}
+
+/* SECTION2 */
+#app2 {
+    background-color: whitesmoke;
+    padding: 1rem;
+    padding-top: 4rem;
+}
+
+#app2 img {
+    display: none;
+}
+
+#app2 h2 {
+    font-size: 5rem;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+#app2 h3 {
+
+    font-size: 3rem;
+    color: brown;
+    margin: 1rem 0;
+}
+
+#app2Txt>span {
+    font-size: 1.5rem;
+}
+
+/* SECTION3 */
+#app3 {
+    background-color: dimgrey;
+    color: aliceblue;
+    text-align: center;
+}
+
+#icon {
+    display: flex;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#icon div {
+    width: 25%;
+    text-align: center;
+}
+
+/* color icon */
+#icon .fa-heart {
+    color: red;
+}
+
+#icon .fa-camera {
+    color: yellowgreen;
+}
+
+#icon .fa-bolt-lightning {
+    color: yellow;
+}
+
+#icon .fa-battery-full {
+    color: green;
+}
+
+#icon .fa-cloud {
+    color: blue;
+}
+
+#icon .fa-earth-americas {
+    color: orange;
+}
+
+#icon .fa-hard-drive {
+    color: aqua;
+}
+
+#icon .fa-user {
+    color: bisque;
+}
+
+#icon .fa-shield-halved {
+    color: orangered;
+}
+
+/* SECTION4 */
+#app4 {
+    background-color: azure;
+    text-align: center;
+}
+
+#app4 .colonne {
+    border: 1px solid #000;
+    width: 20rem;
+    /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto;
+    /* Centrer la colonne */
+    text-align: center;
+    /* Centrer le contenu */
+    margin-top: 2rem;
+}
+
+hr {
+    border: 1px solid #000;
+    /* Ligne noire entre les lignes */
+    margin: 0;
+}
+
+#button1 {
+    background-color: gainsboro;
+    padding: 1.5rem;
+    margin: 0;
+}
+#button2 {
+    background-color: gainsboro;
+    padding: 1.5rem;
+    margin: 0;
+}
+#button1>button {
+    color: white;
+    background-color: black;
+}
+#button2>button {
+    color: white;
+    background-color: black;
+}
+#prix {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#basic {
+    color: white;
+    background-color: grey;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+#premium {
+    color: white;
+    background-color: red;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+#app4 span {
+    font-weight: bold;
+}
+
+#footerLogo {
+    background-color: rgb(239, 234, 234);
+    text-align: center;
+    font-size: 1.5rem;
+    text-size-adjust: unset;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#footerLogo>p {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:576px) {
+    #modal{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #close{
+        background-color: gray;
+        padding: 0 .5rem;
+    }
+    #deskdownload {
+        width: 350px;
+        height: fit-content;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.44);
+    }
+
+    #deskdownload p {
+        display: block;
+    }
+
+    #img-header {
+        flex-direction: row;
+        align-items: center;
+        height: 60vh;
+    }
+
+    #take-tour {
+        height: fit-content;
+        margin: 1rem;
+    }
+
+    /* section app1 */
+    #app1 {
+        display: flex;
+    }
+
+    #app1Btn {
+        display: none;
+    }
+
+    #app1Btndesck {
+        display: inline-block;
+        padding: 1rem;
+        background-color: antiquewhite;
+    }
+
+    /* section2 */
+    #app2 img {
+        display: block;
+    }
+
+    #app2 {
+        display: flex;
+    }
+
+    /* section app3 */
+    #icon .dNone {
+        display: none;
+    }
+
+    /* section app4 */
+    #car {
+        display: flex;
+    }
+}
